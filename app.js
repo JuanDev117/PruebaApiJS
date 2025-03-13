@@ -31,3 +31,7 @@ async function getPersonajeAleatorio() {
         document.getElementById('resultado').innerHTML = `<p>Ocurrió un error al obtener el personaje</p>`;
     }
 }
+
+
+
+////ffff
