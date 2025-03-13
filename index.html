@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rick and Morty - Personaje Aleatorio</title>
     <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <style>
         
         *{
             background-color: azure;
             color: blueviolet;
+            font-family: "Rock Salt", cursive;
+            font-weight: 700;
+            font-style: normal;
         }
+
+        #btn{
+            lineal-gradient: 90deg, #141e30, #243b55;
+            border: none;
+        }
+
         .personaje-card {
             border: 1px solid #ccc;
             border-radius: 8px;
@@ -26,7 +38,7 @@
 </head>
 <body>
     <h1>Personajes Rick y Morty</h1>
-    <button onclick="getPersonajeAleatorio()">Mostrar personaje aleatorio</button>
+    <button   onclick="getPersonajeAleatorio()">Mostrar personaje aleatorio</button>
     <div id="resultado"></div>
 </body>
 </html
